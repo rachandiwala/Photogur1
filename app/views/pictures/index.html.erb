@@ -1,0 +1,30 @@
+
+<!--
+
+<h1>Pictures (<%= @pictures.length %></h1> 
+
+<% @pictures.each do |picture| %>
+  <p><%= picture.title %>, <%= picture.artist %></p>
+  <img src="<%= picture.url %>">
+<% end %>
+
+
+This explonation is for above code:
+
+Put each elements from an instence variable @pictures into picture 
+than use tag to display picture title and artis name on the same line seperated by a comma
+lastly use the image tag to display the picture that is stored into the url  attribute.
+
+-->
+
+
+<h1>Pictures (<%= @pictures.length %></h1> 
+
+
+<%= link_to "New Picture", "/pictures/new" %>
+
+<% @pictures.each do |picture| %>
+  <p><%= picture.title %>, <%= picture.artist %></p>
+  <%= link_to image_tag(picture.url), "/pictures/#{picture.id}" %>
+  
+<% end %>
