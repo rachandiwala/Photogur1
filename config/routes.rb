@@ -2,6 +2,9 @@ Rails.application.routes.draw do
   
   root 'pictures#index' # pictures is the name of hte controller & index is the method
 
+# Insted of typing all of the code that is below, you can just
+# use "resource :pictures"
+
 resources :pictures
 
 
