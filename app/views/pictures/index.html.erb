@@ -18,7 +18,7 @@ lastly use the image tag to display the picture that is stored into the url  att
 -->
 
 
-<h1>Pictures (<%= @pictures.length %></h1> 
+<h1>Total Number of Pictures (<%= @pictures.length %>)</h1> 
 
 
 <%= link_to "New Picture", "/pictures/new" %>
@@ -27,4 +27,23 @@ lastly use the image tag to display the picture that is stored into the url  att
   <p><%= picture.title %>, <%= picture.artist %></p>
   <%= link_to image_tag(picture.url), "/pictures/#{picture.id}" %>
   
+  
 <% end %>
+
+
+<h1> Most recent pictures</h1>
+
+<ul>
+  <% @most_recent_pictures.each do |picture| %>
+    <li><%=picture.title %></li>
+  <% end %>
+  </ul>
+
+<footer>
+<center>
+  <p>Posted by: Raza Chandiwala</p>
+  <p>Contact information: <a href="mailto:rachandiwala@gmail.com"></a>rachandiwala@gmail.com</p>
+  </center>
+</footer>
+
+
