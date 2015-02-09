@@ -6,11 +6,16 @@ class PicturesController < ApplicationController
 
   end
 
-  def index
+  def recent
     @most_recent_pictures = Picture.most_recent_five
 
   end
-  
+
+  def old
+    @month_old_pictures = Picture.one_month_old
+
+  end
+
   def show
     @picture = Picture.find(params[:id])
 

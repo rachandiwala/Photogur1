@@ -1,13 +1,6 @@
 
 <!--
 
-<h1>Pictures (<%= @pictures.length %></h1> 
-
-<% @pictures.each do |picture| %>
-  <p><%= picture.title %>, <%= picture.artist %></p>
-  <img src="<%= picture.url %>">
-<% end %>
-
 
 This explonation is for above code:
 
@@ -29,15 +22,6 @@ lastly use the image tag to display the picture that is stored into the url  att
   
   
 <% end %>
-
-
-<h1> Most recent pictures</h1>
-
-<ul>
-  <% @most_recent_pictures.each do |picture| %>
-    <li><%=picture.title %></li>
-  <% end %>
-  </ul>
 
 <footer>
 <center>

@@ -6168,3 +6168,611 @@ ActiveRecord::RecordNotFound (Couldn't find Picture with 'id'=11):
   Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
   Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
   Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (20.6ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:28:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    1: 
+    2: <!--
+    3: 
+    4: <h1>Pictures (<%= @pictures.length %></h1> 
+    5: 
+    6: <% @pictures.each do |picture| %>
+    7:   <p><%= picture.title %>, <%= picture.artist %></p>
+  app/views/pictures/index.html.erb:4:in `_app_views_pictures_index_html_erb___1745051452591564382_70317748522740'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (25.4ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:28:43 -0500
+
+SyntaxError (/Users/Raza/work/Photogur1/app/controllers/pictures_controller.rb:84: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/pictures_controller.rb:84: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (19.4ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:29:01 -0500
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    1: 
+    2: <!--
+    3: 
+    4: <h1>Pictures (<%= @pictures.length %></h1> 
+    5: 
+    6: <% @pictures.each do |picture| %>
+    7:   <p><%= picture.title %>, <%= picture.artist %></p>
+  app/views/pictures/index.html.erb:4:in `_app_views_pictures_index_html_erb___1745051452591564382_70317749739820'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:30:38 -0500
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    11: -->
+    12: 
+    13: 
+    14: <h1>Total Number of Pictures (<%= @pictures.length %>)</h1> 
+    15: 
+    16: 
+    17: <%= link_to "New Picture", "/pictures/new" %>
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb___1745051452591564382_70317767458880'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (18.8ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:32:30 -0500
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    11: -->
+    12: 
+    13: 
+    14: <h1>Total Number of Pictures (<%= @pictures.length %>)</h1> 
+    15: 
+    16: 
+    17: <%= link_to "New Picture", "/pictures/new" %>
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb___1745051452591564382_70317761221560'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (18.6ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:32:32 -0500
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    11: -->
+    12: 
+    13: 
+    14: <h1>Total Number of Pictures (<%= @pictures.length %>)</h1> 
+    15: 
+    16: 
+    17: <%= link_to "New Picture", "/pictures/new" %>
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb___1745051452591564382_70317761221560'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (19.8ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:36:41 -0500
+Processing by PicturesController#index as HTML
+  Rendered pictures/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    11: -->
+    12: 
+    13: 
+    14: <h1>Total Number of Pictures (<%= @pictures.length %>)</h1> 
+    15: 
+    16: 
+    17: <%= link_to "New Picture", "/pictures/new" %>
+  app/views/pictures/index.html.erb:14:in `_app_views_pictures_index_html_erb___1745051452591564382_70317717504780'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (20.6ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:38:26 -0500
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    27: <h1> Most recent pictures</h1>
+    28: 
+    29: <ul>
+    30:   <% @most_recent_pictures.each do |pic| %>
+    31:     <li><%=pic.title %></li>
+    32:   <% end %>
+    33:   </ul>
+  app/views/pictures/index.html.erb:30:in `_app_views_pictures_index_html_erb___1745051452591564382_70317719264420'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:38:57 -0500
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    27: <h1> Most recent pictures</h1>
+    28: 
+    29: <ul>
+    30:   <% @most_recent_pictures.each do |pic| %>
+    31:     <li><%=pic.title %></li>
+    32:   <% end %>
+    33:   </ul>
+  app/views/pictures/index.html.erb:30:in `_app_views_pictures_index_html_erb___1745051452591564382_70317747126400'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (19.9ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:38:59 -0500
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    27: <h1> Most recent pictures</h1>
+    28: 
+    29: <ul>
+    30:   <% @most_recent_pictures.each do |pic| %>
+    31:     <li><%=pic.title %></li>
+    32:   <% end %>
+    33:   </ul>
+  app/views/pictures/index.html.erb:30:in `_app_views_pictures_index_html_erb___1745051452591564382_70317747126400'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (19.5ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:39:15 -0500
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    27: <h1> Most recent pictures</h1>
+    28: 
+    29: <ul>
+    30:   <% @most_recent_pictures.each do |pic| %>
+    31:     <li><%=pic.title %></li>
+    32:   <% end %>
+    33:   </ul>
+  app/views/pictures/index.html.erb:30:in `_app_views_pictures_index_html_erb___1745051452591564382_70317760991820'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (19.8ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:40:55 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.1ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    27: <h1> Most recent pictures</h1>
+    28: 
+    29: <ul>
+    30:   <% @most_recent_pictures.each do |pic| %>
+    31:     <li><%=pic.title %></li>
+    32:   <% end %>
+    33:   </ul>
+  app/views/pictures/index.html.erb:30:in `_app_views_pictures_index_html_erb__3366737133610414009_70270779888700'
+
+
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/Raza/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (19.1ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:41:43 -0500
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 68ms (Views: 67.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-08 23:41:43 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-08 23:41:43 -0500
+
+
+Started GET "/assets/application-ae0b719d9f892d75e5efbff4b86bdc46.css?body=1" for ::1 at 2015-02-08 23:41:43 -0500
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-08 23:41:43 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-08 23:41:43 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-08 23:41:43 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-08 23:41:43 -0500
+
+
+Started GET "/" for ::1 at 2015-02-08 23:41:48 -0500
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.1ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 28.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-08 23:41:48 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-08 23:41:48 -0500
+
+
+Started GET "/assets/application-ae0b719d9f892d75e5efbff4b86bdc46.css?body=1" for ::1 at 2015-02-08 23:41:48 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-08 23:41:48 -0500
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-08 23:41:48 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-08 23:41:48 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-08 23:41:48 -0500
+
+
+Started GET "/pictures/new" for ::1 at 2015-02-08 23:41:50 -0500
+Processing by PicturesController#new as HTML
+  Rendered pictures/new.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 52ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-08 23:41:55 -0500
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-08 23:41:55 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-08 23:41:55 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-08 23:41:55 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-08 23:41:55 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-08 23:41:55 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-08 23:41:55 -0500
+
+
+Started GET "/assets/application-ae0b719d9f892d75e5efbff4b86bdc46.css?body=1" for ::1 at 2015-02-08 23:41:55 -0500
+
+
+Started GET "/pictures/new" for ::1 at 2015-02-08 23:42:55 -0500
+Processing by PicturesController#new as HTML
+  Rendered pictures/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 32ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pictures" for ::1 at 2015-02-08 23:43:20 -0500
+Processing by PicturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/W62LAejlVejbizBkpVGvA3TDFDgKyfDNiGogy6RAjEca2v4gt6OlUyDRTL6G/V2abYeaIu5p/kN7cNNPvw1uA==", "picture"=>{"artist"=>"Cretos", "title"=>"God Of War", "url"=>"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYoqJ1BbAr_JvVl2ihO6DIlqMdYaZ2dAj76hY-OxdvmF_kU64Wig"}, "commit"=>"Save"}
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "pictures" ("artist", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["artist", "Cretos"], ["title", "God Of War"], ["url", "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYoqJ1BbAr_JvVl2ihO6DIlqMdYaZ2dAj76hY-OxdvmF_kU64Wig"], ["created_at", "2015-02-09 04:43:20.492126"], ["updated_at", "2015-02-09 04:43:20.492126"]]
+  [1m[35m (3.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 9ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/pictures" for ::1 at 2015-02-08 23:43:20 -0500
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-08 23:43:20 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-08 23:43:20 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-08 23:43:20 -0500
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-08 23:43:20 -0500
+
+
+Started GET "/assets/application-ae0b719d9f892d75e5efbff4b86bdc46.css?body=1" for ::1 at 2015-02-08 23:43:20 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-08 23:43:20 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-08 23:43:20 -0500
+
+
+Started GET "/pictures/12" for ::1 at 2015-02-08 23:43:22 -0500
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 12]]
+  Rendered pictures/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 46ms (Views: 38.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/10" for ::1 at 2015-02-08 23:43:24 -0500
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered pictures/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/12" for ::1 at 2015-02-08 23:44:57 -0500
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 12]]
+  Rendered pictures/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/12" for ::1 at 2015-02-08 23:44:59 -0500
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 12]]
+  Rendered pictures/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/new" for ::1 at 2015-02-08 23:45:37 -0500
+Processing by PicturesController#new as HTML
+  Rendered pictures/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pictures" for ::1 at 2015-02-08 23:45:47 -0500
+Processing by PicturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+rPs5puKQc47wFGfRDCE3vh8rVDGgoI4JkhWowlyImQbtjEyHvdaDNQtOGwsvjcUnBm/aK0QAgIdhD1tGR8V7Q==", "picture"=>{"artist"=>"Cretos", "title"=>"God Of War", "url"=>"http://upload.wikimedia.org/wikipedia/en/4/48/God_of_War_III_marketing_illustration.jpg"}, "commit"=>"Save"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pictures" ("artist", "title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["artist", "Cretos"], ["title", "God Of War"], ["url", "http://upload.wikimedia.org/wikipedia/en/4/48/God_of_War_III_marketing_illustration.jpg"], ["created_at", "2015-02-09 04:45:47.390217"], ["updated_at", "2015-02-09 04:45:47.390217"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 7ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/pictures" for ::1 at 2015-02-08 23:45:47 -0500
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-08 23:45:47 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-08 23:45:47 -0500
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-08 23:45:47 -0500
+
+
+Started GET "/assets/application-ae0b719d9f892d75e5efbff4b86bdc46.css?body=1" for ::1 at 2015-02-08 23:45:47 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-08 23:45:47 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-08 23:45:47 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-08 23:45:47 -0500
+
+
+Started GET "/pictures/13" for ::1 at 2015-02-08 23:45:50 -0500
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 13]]
+  Rendered pictures/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures/12" for ::1 at 2015-02-08 23:45:57 -0500
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mPicture Load (0.1ms)[0m  [1mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1[0m  [["id", 12]]
+  Rendered pictures/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/pictures/12" for ::1 at 2015-02-08 23:46:00 -0500
+Processing by PicturesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zy/U2n+J8PPVhb7vnmCMSdWDFV87LopBGYoluuo82esuKgkO+vTrMTpo1xz27j+DseYHZ1C8CnsiRk50+lHuYg==", "id"=>"12"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "pictures" WHERE "pictures"."id" = ?  [["id", 12]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 3ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/pictures" for ::1 at 2015-02-08 23:46:00 -0500
+Processing by PicturesController#index as HTML
+  [1m[35mPicture Load (0.2ms)[0m  SELECT "pictures".* FROM "pictures"
+  Rendered pictures/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-08 23:46:00 -0500
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-08 23:46:00 -0500
+
+
+Started GET "/assets/application-ae0b719d9f892d75e5efbff4b86bdc46.css?body=1" for ::1 at 2015-02-08 23:46:00 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-08 23:46:00 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-08 23:46:00 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-08 23:46:00 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-08 23:46:00 -0500
+
+
+Started GET "/pictures" for ::1 at 2015-02-08 23:48:26 -0500
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-08 23:48:26 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-08 23:48:26 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-08 23:48:26 -0500
+
+
+Started GET "/assets/application-ae0b719d9f892d75e5efbff4b86bdc46.css?body=1" for ::1 at 2015-02-08 23:48:26 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-08 23:48:26 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-08 23:48:26 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-08 23:48:26 -0500
+
+
+Started GET "/pictures/10" for ::1 at 2015-02-08 23:48:36 -0500
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mPicture Load (0.1ms)[0m  SELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered pictures/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pictures" for ::1 at 2015-02-08 23:50:05 -0500
+Processing by PicturesController#index as HTML
+  [1m[36mPicture Load (0.2ms)[0m  [1mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/pictures-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-08 23:50:05 -0500
+
+
+Started GET "/assets/application-ae0b719d9f892d75e5efbff4b86bdc46.css?body=1" for ::1 at 2015-02-08 23:50:05 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-08 23:50:05 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-08 23:50:05 -0500
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for ::1 at 2015-02-08 23:50:05 -0500
+
+
+Started GET "/assets/pictures-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-08 23:50:05 -0500
+
+
+Started GET "/assets/application-79e1233a68e5fdd328d8a2ea17ddef8a.js?body=1" for ::1 at 2015-02-08 23:50:05 -0500
+
+
+Started GET "/pictures/new" for ::1 at 2015-02-08 23:50:11 -0500
+Processing by PicturesController#new as HTML
+  Rendered pictures/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
